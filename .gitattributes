@@ -1,0 +1,11 @@
+# 默认 LF（覆盖 core.autocrlf 的本机设置，保证别人 clone 下来和这里一致）
+* text=auto eol=lf
+
+# .bat / .vbs 必须 CRLF：LF 的 bat 会被 cmd 按 GBK 嚼碎（团队铁律）
+*.bat text eol=crlf
+*.vbs text eol=crlf
+
+# 二进制别碰
+*.png binary
+*.jpg binary
+*.zip binary

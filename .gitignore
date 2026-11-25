@@ -1,0 +1,18 @@
+# 运行态：状态、日志、她此刻的处境，一律不入仓
+host/heart/state/
+host/watch/her.json
+host/watch/watch.log
+*.log
+report-latest.md
+nanny_state.json
+wake_plan.json
+
+# 本地环境（含密钥/主机地址）
+.env
+*.env
+!env.example
+
+# 杂项
+__pycache__/
+*.pyc
+.DS_Store

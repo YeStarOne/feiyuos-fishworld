@@ -1,0 +1,19 @@
+{
+ "at": "2026-01-01T09:00:00+08:00",
+ "fish": "小鱼#1234",
+ "presence": "active",
+ "status": "在线 · 在家",
+ "where": "家·某小区",
+ "door": "1 栋 101",
+ "doing": "发呆",
+ "body": "没感到饿 · 还行 · 体感正合适（屋里 22°C）",
+ "money": 0,
+ "outfit": "外套",
+ "unread": {
+  "talk": 0,
+  "message": 0,
+  "note": 0,
+  "friend": 0
+ },
+ "reachable": false
+}
