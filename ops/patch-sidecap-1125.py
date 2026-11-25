@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""1125 阿蓝令补漏：dsh-fish-world 的 maxWakePerDay 12 -> 100000。
+"""1125 主人令补漏：dsh-fish-world 的 maxWakePerDay 12 -> 100000。
 
 这个闸管 side 看护（锅糊这类硬时限告警）。源码注释写明：
   「side-done 全批豁免 10min 间隔闸（锅糊不可逆，硬时限）；12/天额度闸照走」

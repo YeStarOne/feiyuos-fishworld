@@ -14,7 +14,7 @@ OLD = "        events: {arrive: true, done: true}\n        quietHours: {}"
 
 NEW = """        events: {arrive: true, done: true}
         quietHours: {}
-        # 1125 阿蓝令：沉默太久也要叫人。她的长 sleep 都塞在后台 job 里，
+        # 1125 主人令：沉默太久也要叫人。她的长 sleep 都塞在后台 job 里，
         # 插件推送 source=fish-world 断不了 wait（引擎只认 kind=user），宿主 QQ 消息才断得了。
         # 计时起点 = 最后一次真叫醒；正常消息叫醒会重新起算，所以不会跟消息抢。
         idleWakeEnabled: true

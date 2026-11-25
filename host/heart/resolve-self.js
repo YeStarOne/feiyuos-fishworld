@@ -6,8 +6,8 @@
  * 所以查询  key = 'zcode:' + $ZCODE_SESSION_ID  →  sessions.name
  *
  * 实测（2026-11-24 20:56）：
- *   ZCODE_SESSION_ID = sess_67dd9d03-66ec-4d56-8492-2c5fb0f49da5
- *   → sessions.key  = zcode:sess_67dd9d03-66ec-4d56-8492-2c5fb0f49da5
+ *   ZCODE_SESSION_ID = sess_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+ *   → sessions.key  = zcode:sess_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
  *   → sessions.name = example-session
  *
  * 为什么不用 `reason-network who` 解析：它输出的是给人看的表格，

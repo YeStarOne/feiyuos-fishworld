@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""act.py —— 阿蓝的双手：经隧道调 fish-world 的任意工具。
+"""act.py —— 奶妈的双手：经隧道调 fish-world 的任意工具。
 复用 nanny_beat 已经验过的隧道 + 分块解码，不另写一套网络。
 
 用法：

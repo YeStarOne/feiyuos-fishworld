@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-"""nanny_beat.py —— 阿蓝的心跳（无窗常驻）
+"""nanny_beat.py —— 奶妈的心跳（无窗常驻）
 两件事，每 BEAT_MIN 分钟一轮：
   1) 保活：调一次 world_profile（任意工具调用都算一次动静；10 分钟没动静 = 发呆，1 小时 = 下线）
   2) 看她：ssh 到服务器用观看密钥读 /v1/state，只读、不惊动她
 所有密钥只从既有文件读，绝不打印、绝不落日志。
 
-⭐ 为什么要 ssh 隧道：本机 FlClash（TUN + fake-ip 198.18.0.20）把到 api.yuyuworld.app 的
+⭐ 为什么要 ssh 隧道：本机 FlClash（TUN + fake-ip 198.18.0.x）把到 api.yuyuworld.app 的
    直连搞成间歇失败（实测 urllib 40%、curl -35、裸 TLS 70%、密集重试 26 次全败），
    而同一条 ssh(TCP22) 完全健康、经隧道跑 MCP 实测 8/8 全通。所以 MCP 一律走自持隧道。
 日志：nanny_beat.log（append，UTF-8）

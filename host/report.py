@@ -88,7 +88,7 @@ def main():
     me, merr = nb.beat()
 
     L = []
-    L.append("═ 阿蓝的日报 · %s ═" % datetime.datetime.now().strftime("%Y-%m-%d %H:%M"))
+    L.append("═ 奶妈的日报 · %s ═" % datetime.datetime.now().strftime("%Y-%m-%d %H:%M"))
     L.append("")
     L.append("【她】")
     if err:
