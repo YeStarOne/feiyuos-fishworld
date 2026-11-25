@@ -2,8 +2,10 @@
 * text=auto eol=lf
 
 # .bat / .vbs 必须 CRLF：LF 的 bat 会被 cmd 按 GBK 嚼碎（团队铁律）
-*.bat text eol=crlf
-*.vbs text eol=crlf
+# 用 -text（不做任何行尾转换），让仓库里存的字节本身就是 CRLF —— eol=crlf 只保证
+# clone 出的工作区是 CRLF，直接下载 raw/zip 仍是 LF，那种文件一跑就废。
+*.bat -text
+*.vbs -text
 
 # 二进制别碰
 *.png binary
