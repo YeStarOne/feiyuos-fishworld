@@ -1,4 +1,4 @@
-' heart-guard.vbs - keep Alan's heartbeat alive, windowless.
+' heart-guard.vbs - keep the heartbeat alive, windowless.
 ' Starts node DIRECTLY (no cmd.exe, no .bat): going through `cmd /c start-heart.bat`
 ' leaves a resident cmd.exe supervisor holding the child for the whole lifetime,
 ' which is both a console-subsystem carrier (window-flash risk) and a process that
